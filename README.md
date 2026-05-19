@@ -46,7 +46,7 @@ Interactive Streamlit app for:
 
 pip install -r requirements.txt
 
-## Training:
+#### Training:
 
 - Single dataset:
 
@@ -57,12 +57,12 @@ pip install -r requirements.txt
 python src/training.py
 
 
-## Prediction
+#### Prediction
 
 python src/predict.py --file test_FD001.txt
 
 
-## Dashboard:
+#### Dashboard:
 
 streamlit run app/streamlit.py
 
