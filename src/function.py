@@ -6,8 +6,6 @@ from sklearn.ensemble import RandomForestClassifier
 
 # ✅ LOAD DATA (robusto)
 def load_data(relative_path):
-    import os
-    import pandas as pd
 
     # root progetto
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))

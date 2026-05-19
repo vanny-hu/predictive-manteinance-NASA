@@ -1,6 +1,18 @@
+# env
 venv/
+
+# python
 __pycache__/
 *.pyc
+
+# jupyter
 .ipynb_checkpoints/
-data/raw/*
-models/*
+
+# include processed data
+!data/processed/
+
+# include raw data (importantissimo)
+!data/raw/
+
+# ignore model (opzionale)
+models/
